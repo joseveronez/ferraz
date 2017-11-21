@@ -13,7 +13,7 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero branco-fonte">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero branco-fonte" id="waypointMenu">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT10p MarginB10p padding-zero">
             <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 ">
@@ -148,22 +148,40 @@
     </div>
 </div>
 <script type="text/javascript">
-        $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                loop:true,
-                margin:10,
-                nav:false,
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:1
-                    },
-                    1000:{
-                        items:1
-                    }
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
                 }
-            })
-        });
+            }
+        })
+    });
+
+    $(".navbar").addClass("bg-transparente");
+    var waypoint0 = new Waypoint({
+        element: document.getElementById('waypointMenu'),
+        handler: function(direction) {
+            if(direction == "down") {
+                /* ativa o menu */
+                $(".navbar").addClass("bg-branco");
+                $(".navbar").removeClass("bg-transparente");
+                /* ativa o menu */
+            } else {
+                /* desativa o menu */
+                $(".navbar").removeClass("bg-branco");
+                $(".navbar").addClass("bg-transparente");
+                /* desativa o menu */
+            }
+        }
+    });
 </script>

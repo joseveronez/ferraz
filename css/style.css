@@ -1,12 +1,74 @@
-.nav>li>a:hover {
-    background-color: transparent;
-    color: #eeeeee;
+/* UNIVERSAL STYLES */
+.center-top { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
+/* UNIVERSAL STYLES */
+
+/* NAVBAR STYLES */
+.navbar { border: 0; }
+.navbar-nav>li>a>img { width: 180px; height: 80px; margin-right: 25px; padding: 0; }
+.navbar-nav>li>a { font-size: 12px; }
+.grupo-redes a i.fa { padding: 5px 8px; margin-top: 3px; width: 30px; height: 30px; line-height: 22px }
+.navbar-social .grupo-redes { margin-top: 25px }
+/* NAVBAR STYLES */
+
+/* FOOTER STYLES */
+footer p { font-size: 13px; font-weight: 400; line-height: 24px; -webkit-font-smoothing: antialiased; margin: 0 0 10px; }
+footer a { color: #546E7A; text-decoration: none }
+footer a:active,
+footer a:focus,
+footer a:visited,
+footer a:hover { text-decoration: none }
+footer .chamada { color: #99A5AA }
+footer h5 { font-size: 13px; line-height: 18px; font-weight: 500; letter-spacing: 2px; margin-top: 0 }
+/* FOOTER STYLES */
+
+@media (min-width: 768px) {
+    /* NAVBAR STYLES */
+    .navbar { -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-out; transition: all 0.3s ease-in-out; }
+    .navbar-header.container { padding: 0 !important; margin: 0 !important }
+    .bg-branco { background-color: #ffffff }
+    .bg-branco a,
+    .bg-branco a:active,
+    .bg-branco a:focus,
+    .bg-branco a:visited { color: #546E7A; background: transparent !important; }
+    .bg-branco a:hover { color: #171e21; }
+    .bg-branco a:hover i.fa { color: #171e21; }
+    .bg-branco #example-navbar-collapse { border-bottom: 1px solid rgb(204, 204, 204); }
+
+    .bg-transparente { background-color: transparent }
+    .bg-transparente a,
+    .bg-transparente a:active,
+    .bg-transparente a:focus,
+    .bg-transparente a:visited { color: #E4E4E4; background: transparent !important; }
+    .bg-transparente a:hover { color: #ffffff; }
+    .bg-transparente a:hover i.fa { color: #ffffff; }
+    /* NAVBAR STYLES */
+
+    /* FOOTER STYLES */
+    footer img { margin-bottom: 26px }
+    footer .container { padding-top: 50px; padding-bottom: 50px }
+    /* FOOTER STYLES */
+}
+
+@media screen and (max-width: 767px) {
+    /* NAVBAR STYLES */
+    .navbar-header .img-mobile { height: 50px; margin-top: 15px; margin-bottom: 15px }
+    .navbar-toggle { margin: 0; right: 5px; position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
+    .navbar-fixed-top { background-color: #eeeeee }
+    .navbar-nav>li>a { color: #000000 }
+    .nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus, .nav>li>a:visited { background-color: transparent; color: #000000 }
+    #example-navbar-collapse { border-top: 1px solid #ffffff; }
+    /* NAVBAR STYLES */
+
+    /* FOOTER STYLES */
+    footer .container { padding-top: 30px; padding-bottom: 30px }
+    footer img { margin-bottom: 30px }
+    footer h5 { margin-top: 30px }
+    /* FOOTER STYLES */
 }
 
 .hr-socios {width: 50px;border-top: 3px solid #ababab}
 .btn-home{ background-color: #1b246f; border-radius: 0px;color: white; letter-spacing: 1.8px;padding: 15px 25px;}
 .btn-home:hover{color: white;}
-.grupo-redes a{ padding: 2px!important; }
 .grupo-redes a:hover{ text-decoration: none!important; color: #eeeeee; }
 .texto-empresa { font-size: 13px!important; font-weight: 400!important; line-height: 24px!important;}
 .border-socios{border-top: 1px solid #ababab}
@@ -17,21 +79,13 @@
 
 
 /* LG MD SM  */
-@media (min-width: 768px) {
-    
-}
+
 
 @media (min-width: 768px){
-        .navbar-nav>li>a {
+    .navbar-nav>li>a {
         padding-top: 30px;
         padding-bottom: 30px;
-        color: white;
     }
-}
-
-/* XS */
-@media (max-width: 767px) {
-
 }
 
 @media (max-width: 460px) {
