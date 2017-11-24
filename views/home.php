@@ -1,14 +1,39 @@
-<style>
-    .banner-home {background-image: url(<?= RAIZSITE ?>/imagens/advogado.jpg); background-position: center center; background-repeat: no-repeat;background-size: 100% 100%; height: 93vh; background-attachment: fixed;}
-</style>
-
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 banner-home branco-fonte">
-        <div class="owl-carousel margem-header-home" id="owl">
-        <div class="container">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MarginT30p">
-                <h3 class="size60 Light">Ferraz Cicarelli</h3>
-                <p class="size18">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Suspendisse aliquam vel velit sollicitudin porta.Suspendisse tincidunt nibh.</p>
-                <a role="button" href="" class="btn btn-home MarginT7p">LOREM IPSUM</a>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 branco-fonte padding-zero">
+    <div class="owl-carousel margem-header-home vh80" id="owl">
+        <div class="vh80" style="background-image: url(<?= RAIZSITE ?>/imagens/advogado.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+            <div class="container conteudo-banner">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="size60 Light">Ferraz Cicarelli</h3>
+                    <h4 class="size16">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Suspendisse aliquam vel velit sollicitudin porta.</h4>
+                    <a role="button" href="" class="btn MarginT7p">LOREM IPSUM</a>
+                </div>
+            </div>
+        </div>
+        <div class="vh80" style="background-image: url(<?= RAIZSITE ?>/imagens/advogado.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+            <div class="container conteudo-banner">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="size60 Light">Ferraz<br>Cicarelli</h3>
+                    <h4 class="size16">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Suspendisse aliquam vel velit sollicitudin porta.</h4>
+                    <a role="button" href="" class="btn MarginT7p">LOREM IPSUM</a>
+                </div>
+            </div>
+        </div>
+        <div class="vh80" style="background-image: url(<?= RAIZSITE ?>/imagens/advogado.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+            <div class="container conteudo-banner">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="size60 Light">Ferraz Cicarelli</h3>
+                    <h4 class="size16">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Suspendisse aliquam vel velit sollicitudin porta.<br>Suspendisse tincidunt nibh.</h4>
+                    <a role="button" href="" class="btn MarginT7p">LOREM IPSUM</a>
+                </div>
+            </div>
+        </div>
+        <div class="vh80" style="background-image: url(<?= RAIZSITE ?>/imagens/advogado.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+            <div class="container conteudo-banner">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="size60 Light">Ferraz<br>Cicarelli</h3>
+                    <h4 class="size16">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Suspendisse aliquam vel velit sollicitudin porta.<br>Suspendisse tincidunt nibh.</h4>
+                    <a role="button" href="" class="btn MarginT7p">LOREM IPSUM</a>
+                </div>
             </div>
         </div>
     </div>
@@ -184,4 +209,13 @@
             }
         }
     });
+
+    new vUnit({
+      CSSMap: {
+        '.vh': {
+            property: 'height',
+            reference: 'vh'
+        },
+      },
+    }).init();
 </script>

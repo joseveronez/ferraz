@@ -1,5 +1,30 @@
 /* UNIVERSAL STYLES */
 .center-top { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
+.btn {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 18px 35px;
+    background-color: #1b246f;
+}
+.btn:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    background-color: #1B24C5
+}
 /* UNIVERSAL STYLES */
 
 /* NAVBAR STYLES */
@@ -9,6 +34,13 @@
 .grupo-redes a i.fa { padding: 5px 8px; margin-top: 3px; width: 30px; height: 30px; line-height: 22px }
 .navbar-social .grupo-redes { margin-top: 25px }
 /* NAVBAR STYLES */
+
+/* BANNER STYLES */
+.conteudo-banner { height: 100%; position: relative }
+.conteudo-banner>div { position: absolute; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%) }
+.conteudo-banner h3 { line-height: 72px; font-weight: 300; margin-top: 0 }
+.conteudo-banner h4 { line-height: 24px; font-weight: 500 }
+/* BANNER STYLES */
 
 /* FOOTER STYLES */
 footer p { font-size: 13px; font-weight: 400; line-height: 24px; -webkit-font-smoothing: antialiased; margin: 0 0 10px; }
@@ -59,6 +91,10 @@ footer h5 { font-size: 13px; line-height: 18px; font-weight: 500; letter-spacing
     #example-navbar-collapse { border-top: 1px solid #ffffff; }
     /* NAVBAR STYLES */
 
+    /* BANNER STYLES */
+    .vh80 { height: 600px !important }
+    /* BANNER STYLES */
+
     /* FOOTER STYLES */
     footer .container { padding-top: 30px; padding-bottom: 30px }
     footer img { margin-bottom: 30px }
@@ -67,8 +103,6 @@ footer h5 { font-size: 13px; line-height: 18px; font-weight: 500; letter-spacing
 }
 
 .hr-socios {width: 50px;border-top: 3px solid #ababab}
-.btn-home{ background-color: #1b246f; border-radius: 0px;color: white; letter-spacing: 1.8px;padding: 15px 25px;}
-.btn-home:hover{color: white;}
 .grupo-redes a:hover{ text-decoration: none!important; color: #eeeeee; }
 .texto-empresa { font-size: 13px!important; font-weight: 400!important; line-height: 24px!important;}
 .border-socios{border-top: 1px solid #ababab}
