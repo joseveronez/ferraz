@@ -1,4 +1,7 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 branco-fonte padding-zero">
+
+    <div class="hidden-xs" id="waypointMenu" style="position: absolute; top: 90px; height: 70px; width: 100px"></div>
+
     <div class="owl-carousel margem-header-home vh80" id="owl">
         <div class="vh80" style="background-image: url(<?= RAIZSITE ?>/imagens/advogado.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
             <div class="container conteudo-banner">
@@ -88,7 +91,7 @@
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p preto-fonte bg-branco">
-    <div class="container">
+    <div class="container bloco-integrantes">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <img src="<?= RAIZSITE ?>/imagens/socio.png" style="margin: 0 auto; width: 100%;">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p PaddingB10p border-socios">
@@ -96,16 +99,18 @@
                 <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
                 <hr class="hr-socios">
                 
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-twitter branco-fonte"></i>
-                    </a>
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-linkedin branco-fonte"></i>
-                    </a>
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-instagram branco-fonte"></i>
-                    </a>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="integrantes-social">
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-twitter branco-fonte"></i>
+                        </a>
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-linkedin branco-fonte"></i>
+                        </a>
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-instagram branco-fonte"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,16 +120,19 @@
                 <h4 class="text-center">Lorem Ipsum</h4>
                 <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
                 <hr class="hr-socios">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-twitter branco-fonte"></i>
-                    </a>
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-linkedin branco-fonte"></i>
-                    </a>
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-instagram branco-fonte"></i>
-                    </a>
+                
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="integrantes-social">
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-twitter branco-fonte"></i>
+                        </a>
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-linkedin branco-fonte"></i>
+                        </a>
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-instagram branco-fonte"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,16 +142,19 @@
                 <h4 class="text-center">Lorem Ipsum</h4>
                 <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
                 <hr class="hr-socios">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-twitter branco-fonte"></i>
-                    </a>
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-linkedin branco-fonte"></i>
-                    </a>
-                    <a href="" role="button" class="btn bg-preto">
-                        <i class="fa fa-instagram branco-fonte"></i>
-                    </a>
+                
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="integrantes-social">
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-twitter branco-fonte"></i>
+                        </a>
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-linkedin branco-fonte"></i>
+                        </a>
+                        <a href="" role="button" class="btn bg-preto">
+                            <i class="fa fa-instagram branco-fonte"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

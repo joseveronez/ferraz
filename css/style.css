@@ -60,6 +60,11 @@ img:hover.opacity {
 .conteudo-empresa h2 { font-size: 13px; line-height: 24px; font-weight: 400; color: #546E7A; -webkit-font-smoothing: antialiased; }
 /* EMPRESA STYLES */
 
+/* INTEGRANTES STYLES */
+.bloco-integrantes .btn { background-color: #000000 !important; padding: 15px !important; }
+.integrantes-social { position: relative; display: inline-block; vertical-align: middle; width: 100%; text-align: center }
+/* INTEGRANTES STYLES */
+
 /* MAPA STYLES */
 .bloco-contato { background-color: #ffffff; margin-top: 70px; margin-bottom: 70px; padding: 30px; }
 .bloco-contato h3 { font-size: 40px; line-height: 48px; font-weight: 300; margin-top: 0 }
