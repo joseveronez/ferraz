@@ -38,34 +38,35 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero branco-fonte" id="waypointMenu">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero branco-fonte bg-branco" id="waypointMenu">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT10p MarginB10p padding-zero">
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 ">
-                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive opacity" style="margin: 0 auto;">
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 ">
-                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive opacity" style="margin: 0 auto;">
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 ">
-                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive opacity" style="margin: 0 auto;">
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 ">
-                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive opacity" style="margin: 0 auto;">
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 ">
-                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive opacity" style="margin: 0 auto;">
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 ">
-                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive" style="margin: 0 auto;">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                <img src="<?= RAIZSITE ?>/imagens/teste.png" class="img-responsive opacity" style="margin: 0 auto;">
             </div>
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero branco-fonte">
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 preto-fonte MarginB5p">
-            <h3 class="text-center size30 Light">Lorem ipsum dolor sit amet</h3>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero branco-fonte bg-branco">
+    <div class="container conteudo-empresa">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 preto-fonte MarginB9p">
+            <h1 class="text-center Light">Lorem ipsum dolor sit amet</h1>
+            <h2 class="text-center Light">Consectetur adipiscing elit<br>Suspendisse aliquam vel velit sollicitudin porta</h2>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 preto-fonte">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginB3p">
@@ -86,16 +87,16 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT10p preto-fonte">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p preto-fonte bg-branco">
     <div class="container">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <img src="<?= RAIZSITE ?>/imagens/socio.png" style="margin: 0 auto; width: 100%;">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p PaddingB10p border-socios">
                 <h4 class="text-center">Lorem Ipsum</h4>
                 <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
                 <hr class="hr-socios">
                 
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-offset-3 text-center">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
                     <a href="" role="button" class="btn bg-preto">
                         <i class="fa fa-twitter branco-fonte"></i>
                     </a>
@@ -108,13 +109,13 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <img src="<?= RAIZSITE ?>/imagens/socio.png" style="margin: 0 auto; width: 100%;">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p PaddingB10p border-socios">
                 <h4 class="text-center">Lorem Ipsum</h4>
                 <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
                 <hr class="hr-socios">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-offset-3 text-center">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
                     <a href="" role="button" class="btn bg-preto">
                         <i class="fa fa-twitter branco-fonte"></i>
                     </a>
@@ -127,13 +128,13 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <img src="<?= RAIZSITE ?>/imagens/socio.png" style="margin: 0 auto; width: 100%;">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p PaddingB10p border-socios">
                 <h4 class="text-center">Lorem Ipsum</h4>
                 <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
                 <hr class="hr-socios">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-offset-3 text-center">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
                     <a href="" role="button" class="btn bg-preto">
                         <i class="fa fa-twitter branco-fonte"></i>
                     </a>
@@ -149,7 +150,7 @@
     </div>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-cinza-claro">
-    <h3 class="size30 text-center Light MarginT20p MarginB10p">Depoimentos</h3>
+    <h3 class="size40 text-center Light MarginT20p MarginB10p">Depoimentos</h3>
     <div class="owl-carousel" id="owl">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
             <div class="container">
@@ -162,14 +163,25 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero MarginT10p preto-fonte">
-    <div class="container">
-        
-    </div>
-</div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bloco-mapa">
     <div class="google-maps">
-        <iframe id="iframeMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.4265251941215!2d-49.29276078446682!3d-25.42400003888302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3fbc745e1e3%3A0xa29ca15da95633b4!2sTravessa+Amando+Mann+-+Merc%C3%AAs%2C+Curitiba+-+PR!5e0!3m2!1spt-BR!2sbr!4v1510950063027" style="height: 450px; width: 100%;background-attachment: fixed; border: none; "></iframe>
+        <div class="container">
+            <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 bloco-contato">
+                <h3>Entre em contato</h3>
+                <h4>Lorem Ipsum Dollor</h4>
+
+                <form class="form-horizontal" action="" method="post">
+                    <input type="text" class="form-control" name="nome" placeholder="Nome completo" />
+                    <input type="text" class="form-control" name="telefone" placeholder="Telefone" />
+                    <input type="email" class="form-control" name="email" placeholder="E-mail" />
+                    <textarea class="form-control" name="mensagem" placeholder="Digite aqui sua mensagem" cols="3" rows="5"></textarea>
+
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <iframe id="iframeMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.4265251941215!2d-49.29276078446682!3d-25.42400003888302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3fbc745e1e3%3A0xa29ca15da95633b4!2sTravessa+Amando+Mann+-+Merc%C3%AAs%2C+Curitiba+-+PR!5e0!3m2!1spt-BR!2sbr!4v1510950063027"></iframe>
     </div>
 </div>
 <script type="text/javascript">

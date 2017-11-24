@@ -1,5 +1,5 @@
 <footer>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero bg-branco">
         <div class="container">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                 <img src="<?= RAIZSITE ?>/imagens/ferraz-advocacia.png" class="img-responsive">
