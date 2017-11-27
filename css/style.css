@@ -63,6 +63,43 @@ img:hover.opacity {
 /* INTEGRANTES STYLES */
 .bloco-integrantes .btn { background-color: #000000 !important; padding: 15px !important; }
 .integrantes-social { position: relative; display: inline-block; vertical-align: middle; width: 100%; text-align: center }
+
+.box-integrante img {
+    transition: all .3s, margin-top 1ms, width 1ms, max-width 1ms, margin-left 1ms !important;
+    outline: 1px solid transparent;
+    animation: all .3s !important;
+    position: relative;
+}
+.box-integrante:hover img { transform: scale(1.2) !important; }
+
+.box-integrante .box-conteudo {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #E6E6E6;
+    height: 143px;
+    overflow: hidden;
+    background-color: #FFF;
+    position: absolute;
+    transition: margin-top .3s;
+    margin-top: 0;
+    z-index: 9;
+    right: 0;
+    left: 0;
+}
+.box-integrante .box-conteudo { 
+    padding: 30px 0;
+    height: 170px;
+}
+.box-integrante:hover .box-conteudo {
+    height: auto;
+    margin-top: -96px;
+    transition: margin-top .3s;
+    margin-bottom: 0;
+}
+
+.integrantes-social .btn { background-color: transparent !important; color: #000000 !important }
+.integrantes-social .btn:hover { background-color: #000000 !important }
+.integrantes-social .btn:hover i.fa { color: #ffffff !important }
 /* INTEGRANTES STYLES */
 
 /* MAPA STYLES */

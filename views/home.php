@@ -90,72 +90,136 @@
         </div>
     </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p preto-fonte bg-branco">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p PaddingB10p preto-fonte bg-branco">
     <div class="container bloco-integrantes">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <img src="<?= RAIZSITE ?>/imagens/socio.png" style="margin: 0 auto; width: 100%;">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p PaddingB10p border-socios">
-                <h4 class="text-center">Lorem Ipsum</h4>
-                <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
-                <hr class="hr-socios">
+    	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="box-integrante" style="position: relative; padding-bottom: 190px; overflow: hidden">
+            	
+            	<img src="<?= RAIZSITE ?>/imagens/team-1.jpg" style="margin: 0 auto; width: 100%;">
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="integrantes-social">
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-twitter branco-fonte"></i>
-                        </a>
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-linkedin branco-fonte"></i>
-                        </a>
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-instagram branco-fonte"></i>
-                        </a>
-                    </div>
-                </div>
+                <div class="box-conteudo">
+	                <h4 class="text-center">Lorem Ipsum</h4>
+	                <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
+	                <hr class="hr-socios">
+	                
+	                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	                    <div class="integrantes-social">
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-twitter"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-linkedin"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-instagram"></i>
+	                        </a>
+	                    </div>
+	                </div>
+	            </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <img src="<?= RAIZSITE ?>/imagens/socio.png" style="margin: 0 auto; width: 100%;">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p PaddingB10p border-socios">
-                <h4 class="text-center">Lorem Ipsum</h4>
-                <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
-                <hr class="hr-socios">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="box-integrante" style="position: relative; padding-bottom: 190px; overflow: hidden">
+            	
+            	<img src="<?= RAIZSITE ?>/imagens/team-1.jpg" style="margin: 0 auto; width: 100%;">
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="integrantes-social">
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-twitter branco-fonte"></i>
-                        </a>
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-linkedin branco-fonte"></i>
-                        </a>
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-instagram branco-fonte"></i>
-                        </a>
-                    </div>
-                </div>
+                <div class="box-conteudo">
+	                <h4 class="text-center">Lorem Ipsum</h4>
+	                <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
+	                <hr class="hr-socios">
+	                
+	                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	                    <div class="integrantes-social">
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-twitter"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-linkedin"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-instagram"></i>
+	                        </a>
+	                    </div>
+	                </div>
+	            </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <img src="<?= RAIZSITE ?>/imagens/socio.png" style="margin: 0 auto; width: 100%;">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-zero PaddingT10p PaddingB10p border-socios">
-                <h4 class="text-center">Lorem Ipsum</h4>
-                <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
-                <hr class="hr-socios">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="box-integrante" style="position: relative; padding-bottom: 190px; overflow: hidden">
+            	
+            	<img src="<?= RAIZSITE ?>/imagens/team-1.jpg" style="margin: 0 auto; width: 100%;">
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="integrantes-social">
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-twitter branco-fonte"></i>
-                        </a>
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-linkedin branco-fonte"></i>
-                        </a>
-                        <a href="" role="button" class="btn bg-preto">
-                            <i class="fa fa-instagram branco-fonte"></i>
-                        </a>
-                    </div>
-                </div>
+                <div class="box-conteudo">
+	                <h4 class="text-center">Lorem Ipsum</h4>
+	                <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
+	                <hr class="hr-socios">
+	                
+	                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	                    <div class="integrantes-social">
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-twitter"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-linkedin"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-instagram"></i>
+	                        </a>
+	                    </div>
+	                </div>
+	            </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="box-integrante" style="position: relative; padding-bottom: 190px; overflow: hidden">
+            	
+            	<img src="<?= RAIZSITE ?>/imagens/team-1.jpg" style="margin: 0 auto; width: 100%;">
+                
+                <div class="box-conteudo">
+	                <h4 class="text-center">Lorem Ipsum</h4>
+	                <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
+	                <hr class="hr-socios">
+	                
+	                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	                    <div class="integrantes-social">
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-twitter"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-linkedin"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-instagram"></i>
+	                        </a>
+	                    </div>
+	                </div>
+	            </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="box-integrante" style="position: relative; padding-bottom: 190px; overflow: hidden">
+            	
+            	<img src="<?= RAIZSITE ?>/imagens/team-1.jpg" style="margin: 0 auto; width: 100%;">
+                
+                <div class="box-conteudo">
+	                <h4 class="text-center">Lorem Ipsum</h4>
+	                <h6 class="text-center Light">Lorem ipsum dolor sit amet</h6>
+	                <hr class="hr-socios">
+	                
+	                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	                    <div class="integrantes-social">
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-twitter"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-linkedin"></i>
+	                        </a>
+	                        <a href="" role="button" class="btn">
+	                            <i class="fa fa-instagram"></i>
+	                        </a>
+	                    </div>
+	                </div>
+	            </div>
             </div>
         </div>
     </div>
